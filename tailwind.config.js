@@ -1,3 +1,4 @@
+'./src/assets/images/bg.png'
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -20,7 +21,5 @@ module.exports = {
       // "cupcake",
     ],
   },
-
   plugins: [require("daisyui")],
-  
 }
