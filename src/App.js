@@ -9,6 +9,7 @@ import Reviews from './Components/Pages/Reviews/Reviews';
 import Login from './Components/Pages/Login/Login';
 import Register from './Components/Pages/Register/Register';
 import Navbar from './Components/Pages/Shareable/Navbar/Navbar';
+import Footer from './Components/Pages/Shareable/Footer';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
