@@ -2,7 +2,7 @@ import React from "react";
 
 const InfoCard = ({img,subText,text,classToAdd}) => {
     return (
-        <div className={"card bg-gradient-to-r bg-accent lg:card-side bg-base-100 shadow-xl px-5 "+classToAdd}>
+        <div className={"card bg-gradient-to-r bg-accent lg:card-side shadow-xl p-5 "+classToAdd}>
             <figure>
                 <img
                     src={img}
