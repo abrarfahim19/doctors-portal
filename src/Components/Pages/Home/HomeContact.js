@@ -13,9 +13,9 @@ const HomeContact = () => {
                     </h1>
             </div>
             <div className="text-center flex flex-col justify-center items-center pb-10">
-                <input type="text" placeholder="Email Adress" class="input input-bordered input-primary w-full max-w-sm my-2" />
-                <input type="text" placeholder="Subject" class="input input-bordered input-primary w-full max-w-sm my-2" />
-                <input type="text" placeholder="Your Message" class="input input-bordered input-primary h-20 w-full max-w-sm mt-2 mb-5" />
+                <input type="text" placeholder="Email Adress" className="input input-bordered input-primary w-full max-w-sm my-2" />
+                <input type="text" placeholder="Subject" className="input input-bordered input-primary w-full max-w-sm my-2" />
+                <input type="text" placeholder="Your Message" className="input input-bordered input-primary h-20 w-full max-w-sm mt-2 mb-5" />
                 <PrimaryButton text='Submit'></PrimaryButton>
             </div>
         </section>

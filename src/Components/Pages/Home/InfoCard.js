@@ -9,7 +9,7 @@ const InfoCard = ({img,subText,text,classToAdd}) => {
                     alt="Album"
                 />
             </figure>
-            <div class="card-body">
+            <div className="card-body">
                 <h2 className={"card-title text-white"}>{text}</h2>
                 <p className="text-white">{subText}</p>
             </div>

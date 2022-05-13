@@ -46,16 +46,16 @@ const Services = () => {
                 ))}
             </div>
 
-            <div class="hero min-h-screen">
-                <div class="hero-content flex-col lg:flex-row">
+            <div className="hero min-h-screen">
+                <div className="hero-content flex-col lg:flex-row">
                     <img
                         src={treatment}
-                        class="lg:max-w-sm sm:max-w-screen rounded-lg shadow-2xl"
+                        className="lg:max-w-sm sm:max-w-screen rounded-lg shadow-2xl"
                         alt="treatment"
                     />
                     <div className="lg:p-20">
-                        <h1 class="text-5xl font-bold">Exceptional Dental Care, on Your Terms</h1>
-                        <p class="py-6">
+                        <h1 className="text-5xl font-bold">Exceptional Dental Care, on Your Terms</h1>
+                        <p className="py-6">
                             Provident cupiditate voluptatem et in. Quaerat
                             fugiat ut assumenda excepturi exercitationem quasi.
                             In deleniti eaque aut repudiandae et a id nisi.
