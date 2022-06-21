@@ -9,7 +9,7 @@ const AppointmentCard = ({ service, setBooking }) => {
                 {slots.length ? slots[0]: <p className=" text-red-600 ">Not Available</p>}
                 <p>{slots.length} {slots.length <= 1 ? 'space':'spaces'} Available</p>
                 <div className="card-actions justify-center">
-                    <label onClick={()=> setBooking(service)} for="appointment-modal" disabled={!slots.length} className="btn uppercase font-bold text-white bg-gradient-to-r from-secondary to-primary btn-primary">Book Appointment</label>
+                    <label onClick={()=> setBooking(service)} htmlFor="appointment-modal" disabled={!slots.length} className="btn uppercase font-bold text-white bg-gradient-to-r from-secondary to-primary btn-primary">Book Appointment</label>
                 </div>
             </div>
         </div>
